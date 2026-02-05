@@ -22,7 +22,7 @@ class CuentaBancaria {
                 return "No tiene suficiente saldo para retirar";
             };
         } else {
-            return "El monto a depositar debe ser mayor a 0";
+            return "El monto a retirar debe ser mayor a 0";
         };
     };
 
